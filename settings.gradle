@@ -1,0 +1,4 @@
+rootProject.name = "Spin_Wheel_Game"
+include ':app'
+include ':luckyWhell'
+include ':library'

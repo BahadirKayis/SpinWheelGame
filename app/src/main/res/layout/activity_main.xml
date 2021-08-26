@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#51459E"
+ >
+
+    <rubikstudio.library.LuckyWheelView
+        android:id="@+id/luckywheel"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:lkwBackgroundColor="@android:color/transparent"
+       app:lkwCenterImage="@drawable/wheel"
+        app:lkwCursor="@drawable/spin"
+        app:lkwTopTextColor="#F8F8F8"
+        ></rubikstudio.library.LuckyWheelView>
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="245dp"
+        android:layout_height="79dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginTop="8dp"
+        android:layout_alignParentBottom="true"
+       android:text="play"
+        android:background="#43d3be"
+        android:textColor="@color/white"
+        android:onClick="play"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</RelativeLayout>
